@@ -1,0 +1,121 @@
+
+.bg-purple {
+    background-color: blueviolet;
+    
+}
+
+.navbar-brand {
+    color: rgba(255, 140, 0, 0.842) !important;
+}
+.navbar-toggler, .navbar-toggler-icon {
+    color: aliceblue !important;
+}
+.navbar-toggler-icon {
+color: aliceblue;
+}
+.nav-link {
+    color: rgba(255, 140, 0, 0.842) !important;
+}
+
+.hero {
+    margin-top: 80px;
+}
+.hero-text {
+    margin-top: 120px;
+}
+.hero-text h2 {
+    color: rgba(63, 39, 3, 0.719);
+}
+.hero-text h1 {
+    font-weight: 700;
+    color: rgb(10, 16, 22);
+
+}
+.hero-text p {
+    color: rgb(30, 37, 43);
+}
+.btn-orange {
+    background-color: rgba(255, 140, 0, 0.842);
+    color: aliceblue;
+}
+.btn-purple {
+    background-color: rgba(182, 32, 157, 0.842);
+    color: aliceblue; 
+}
+
+.collection {
+    margin-top: 80px;
+
+}
+.collection h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: blueviolet;
+
+}
+.card-section {
+    margin-top: 30px;
+}
+
+.card-bg {
+    width: 100%;
+    height: 70%;
+}
+
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .575rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 52px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.card-new {
+    padding: 20px;
+    background-color: rgb(230, 139, 225);
+    padding-bottom: 50px;
+    padding-top: 50px
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #9418ad;
+    outline: 0;
+    box-shadow: none
+}
+
+.border-rad {
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    color: #fff;
+    background-color: #e1d5e4;
+    border-color: #f926c4
+}
+
+.border-rad:hover {
+    background-color: #e7deec;
+    border-color: #490a58
+}
+@media only screen and (max-width: 360px) {
+    .hero {
+        margin-top: 10px t;
+    }
+    .hero-text {
+        margin-top: 10px ;
+    }
+}

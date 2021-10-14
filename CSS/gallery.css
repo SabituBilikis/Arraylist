@@ -1,0 +1,38 @@
+
+.bg-purple {
+    background-color: blueviolet;
+    
+}
+
+.navbar-brand {
+    color: rgba(255, 140, 0, 0.842) !important;
+}
+.navbar-toggler, .navbar-toggler-icon {
+    color: aliceblue !important;
+}
+.navbar-toggler-icon {
+color: aliceblue;
+}
+.nav-link {
+    color: rgba(255, 140, 0, 0.842) !important;
+}
+
+.btn-orange {
+    background-color: rgba(255, 140, 0, 0.842);
+    color: aliceblue;
+}
+.btn-purple {
+    background-color: rgba(182, 32, 157, 0.842);
+    color: aliceblue; 
+}
+
+.collection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+
+.card{
+width: 100% !important;
+}
