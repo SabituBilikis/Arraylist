@@ -19,7 +19,7 @@ let bagSection = document.getElementById('bag-wrapper');
 let html ="";
 bags.forEach(e => {
     html += `
-    <div class="row row-cols-1 row-cols-md-3 g-2 card-section">
+   
         <div class="col">
             <div class="card h-100">
               <img src="../Images/${e.image}" class="card-img-top" alt="...">
@@ -29,8 +29,7 @@ bags.forEach(e => {
               </div>
             </div>
         </div>
-    </div>
-    
+  
     `
     console.log(e) 
     bagSection.innerHTML = html
@@ -74,26 +73,26 @@ bags.forEach(e => {
 //     tot();
 // }
 
-load();
+// load();
 
-function tot(){
-    let total = 0;
-    cart.forEach((i)=> {
-        total += bags[i].price
-    });
-    document.getElementById('total').innerText = total;
-}
+// function tot(){
+//     let total = 0;
+//     cart.forEach((i)=> {
+//         total += bags[i].price
+//     });
+//     document.getElementById('total').innerText = total;
+// }
 
-function remove(i, e){
-    for (let j = 0; j < cart.length; j++) {
-        if(cart[j] === i){
-            cart.splice(j, 1)
-        }
-    }
-    localStorage.setItem('cart', JSON.stringify(cart))
+// function remove(i, e){
+//     for (let j = 0; j < cart.length; j++) {
+//         if(cart[j] === i){
+//             cart.splice(j, 1)
+//         }
+//     }
+//     localStorage.setItem('cart', JSON.stringify(cart))
     
-    e.target.parentElement.remove();
-    tot();
-    alert(`${bags[i].name} removed from cart`)
+//     e.target.parentElement.remove();
+//     tot();
+//     alert(`${bags[i].name} removed from cart`)
     
-}
+// }

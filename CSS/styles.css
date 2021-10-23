@@ -1,6 +1,10 @@
-
+*{
+    margin: 0px;
+    
+}
 .bg-purple {
     background-color: blueviolet;
+    color: white;
     
 }
 
@@ -16,8 +20,19 @@ color: aliceblue;
 .nav-link {
     color: rgba(255, 140, 0, 0.842) !important;
 }
+.hero-text {
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
 
-.hero {
+.hero-img {
+    margin-top: 20px;
+    width: 30%;
+    height: 30%;
+}
+
+/* .hero {
     margin-top: 80px;
 }
 .hero-text {
@@ -33,11 +48,16 @@ color: aliceblue;
 }
 .hero-text p {
     color: rgb(30, 37, 43);
-}
+} */
 .btn-orange {
     background-color: rgba(255, 140, 0, 0.842);
     color: aliceblue;
 }
+.bg-orange {
+    background-color: rgba(255, 140, 0, 0.842);
+    color: aliceblue;
+}  
+
 .btn-purple {
     background-color: rgba(182, 32, 157, 0.842);
     color: aliceblue; 
@@ -52,6 +72,10 @@ color: aliceblue;
     margin-bottom: 50px;
     color: blueviolet;
 
+}
+.collection-text {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .card-section {
     margin-top: 30px;
