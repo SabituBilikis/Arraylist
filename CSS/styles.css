@@ -155,3 +155,84 @@ color: aliceblue;
         margin-top: 10px ;
     }
 }
+@media only screen and (max-width: 1024px) {
+    nav{
+        width: 55%;
+    }
+    .hero-text {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+        width: 20%;
+    }
+    .hero-text h2 {
+        font-size: 1.0rem;
+    }
+    .hero-text h1 {
+        font-size: 1.2rem;
+    }
+    .hero-text p {
+        font-size: 0.8rem;
+    }
+    
+    .hero-img {
+        margin-top: 20px;
+        width: 20%;
+        height: 30%;
+    }
+    
+  
+   
+    .collection {
+        margin-top: 60px;
+        width: 100%;
+    
+    }
+    .collection h2 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 1.5rem;
+        width: 50%;
+    
+    }
+    .collection-text {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .card-section {
+        margin-top: 30px;
+        width: 50%;
+    }
+    .img-collection {
+        display: inline-block;
+       height: 250px;
+       width: 310px;
+       padding: 2px;
+       margin: 3px;
+    
+    }
+    .img-collection img {
+        height: 100%;
+        width: 50% ;
+        object-fit: contain;
+    }
+    .collection-text {
+        width: 20%;
+    }
+    .collection-text h3 {
+        font-size: 1rem;
+        
+    }
+    .collection-text p {
+        font-size: 0.8rem;
+    }
+    
+   .card-center {
+    width: 55%;
+   }
+    
+       
+    footer p {
+        width: 50%;
+    }
+}
